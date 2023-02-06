@@ -11,8 +11,8 @@ net.setPreferableTarget(cv2.dnn.DNN_TARGET_CUDA)
 
 distance_thres = 50
 
-cap = cv2.VideoCapture("D:\people.mp4")
-#cap = cv2.VideoCapture(0)
+#cap = cv2.VideoCapture("PATH HERE") # Provide Address of Existing Video and Un-Commnet this line.
+#cap = cv2.VideoCapture(0) # Un-Comment This line to use Your Web Cam as a Video.
 
 
 def dist(pt1, pt2):
